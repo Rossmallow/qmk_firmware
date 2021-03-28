@@ -16,6 +16,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
+/* Helps avoid accidentally executing commands with RCTL_T(KC_SPC) */
+#define IGNORE_MOD_TAP_INTERRUPT
+
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x5143 // QC
 #define PRODUCT_ID      0x4134 // A4
