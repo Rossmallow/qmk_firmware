@@ -62,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │Shift│  5  │  6  │  7  │  8  │  B  │  B  │  N  │  M  │  ,  │  .  │  /  │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-│Ctrl │ Alt │     │Space│Bksp │█████│█████│Space│█████│     │ Gui │█████│
+│Ctrl │ Alt │     │Space│Bksp │█████│ Tab │Space│ Ent │     │ Gui │█████│
 └─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
  */
 [2]= LAYOUT_40_alix(
@@ -80,14 +80,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │█████│  `  │  3  │  2  │  1  │  \  │█████│█████│█████│█████│█████│█████│
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-│█████│█████│     │  .  │  0  │  -  │█████│█████│█████│     │█████│█████│
+│█████│█████│     │  .  │  0  │  -  │ Tab │Space│ Ent │     │█████│█████│
 └─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
 */
 [3] = LAYOUT_40_alix(
         RESET,   KC_LBRC, KC_P9,   KC_P8,   KC_P7,   KC_RBRC, KC_PGUP, KC_HOME, KC_UP,   KC_END,   KC_INS, KC_BSPC,
         KC_NLCK, KC_SCLN, KC_P6,   KC_P5,   KC_P4,   KC_EQL,  KC_PGDN, KC_LEFT, KC_DOWN, KC_RIGHT, KC_DEL, KC_NO,
         KC_NO,   KC_GRV,  KC_P3,   KC_P2,   KC_P1,   KC_BSLS, KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,  KC_NO,
-        KC_NO,   KC_NO,   KC_PDOT, KC_P0,   KC_MINS, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
+        KC_NO,   KC_NO,   KC_PDOT, KC_P0,   KC_MINS, KC_TRNS, KC_TRNS, KC_TRNS, KC_NO,   KC_NO
 ),
 
 /* 4: Symbols/Mouse
@@ -98,14 +98,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │█████│  ~  │  #  │  @  │  !  │  |  │█████│MsWhL│MsAc0│MsAc1│MsAc2│MsWhR│
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-│█████│█████│     │  (  │  )  │  _  │Ms 3 │Ms 1 │Ms 2 │     │█████│█████│
+│█████│█████│     │  (  │  )  │  _  │ Tab │Space│ Ent │     │█████│█████│
 └─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
 */
 [4] = LAYOUT_40_alix(
         KC_NO,   KC_LCBR, KC_LPRN, KC_ASTR, KC_AMPR, KC_RCBR, KC_WH_U, KC_BTN1, KC_MS_U, KC_BTN2, KC_BTN4, KC_NO,
         KC_CAPS, KC_COLN, KC_CIRC, KC_PERC, KC_DLR,  KC_PLUS, KC_WH_D, KC_MS_L, KC_MS_D, KC_MS_R, KC_BTN5, KC_NO,
         KC_NO,   KC_TILD, KC_HASH, KC_AT,   KC_EXLM, KC_PIPE, KC_NO,   KC_WH_L, KC_ACL0, KC_ACL1, KC_ACL2, KC_WH_R,
-        KC_NO,   KC_NO,   KC_LPRN, KC_RPRN, KC_UNDS, KC_BTN3, KC_BTN1, KC_BTN2, KC_NO,   KC_NO
+        KC_NO,   KC_NO,   KC_LPRN, KC_RPRN, KC_UNDS, KC_TRNS, KC_TRNS, KC_TRNS, KC_NO,   KC_NO
 ),
 
 /* 5: Function/Media

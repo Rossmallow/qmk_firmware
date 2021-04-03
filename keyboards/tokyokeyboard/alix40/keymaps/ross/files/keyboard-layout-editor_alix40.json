@@ -222,18 +222,18 @@
     "Esc\n-\n_\n\nCtrl",
     {
       "x": 0.5,
-      "t": "#000000\n\n#ebf011\n#f022c3",
+      "t": "#000000\n\n\n#f022c3",
       "f": 3
     },
-    "<i class='kb kb-Line-Start-End'></i>\n\n3\n<i class='fa fa-volume-off'></i>\nAlt",
+    "<i class='kb kb-Line-Start-End'></i>\n\n\n<i class='fa fa-volume-off'></i>\nAlt",
     {
       "f": 3
     },
-    "Spc\n\n1\n<i class='fa fa-play'></i>\nCtrl",
+    "Spc\n\n\n<i class='fa fa-play'></i>\nCtrl",
     {
       "f": 3
     },
-    "<i class='kb kb-Return-2'></i>\n\n2\n<i class='fa fa-stop'></i>\nGui",
+    "<i class='kb kb-Return-2'></i>\n\n\n<i class='fa fa-stop'></i>\nGui",
     {
       "x": 1.25,
       "t": "#000000",
