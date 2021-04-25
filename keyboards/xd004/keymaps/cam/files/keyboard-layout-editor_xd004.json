@@ -1,0 +1,151 @@
+[
+  [
+    {
+      "a": 6,
+      "fa": [
+        9
+      ],
+      "w": 4,
+      "d": true
+    },
+    "Media"
+  ],
+  [
+    {
+      "t": "#000000\n\n\n\n#ff0000",
+      "a": 7,
+      "f": 3
+    },
+    "<i class='fa fa-volume-up'></i>\n\n\n\nBrowser",
+    {
+      "t": "#000000\n\n\n\n#0000ff",
+      "f": 3
+    },
+    "<i class='fa fa-volume-down'></i>\n\n\n\nZoom",
+    {
+      "t": "#000000\n\n\n\n#ae00ff",
+      "f": 3
+    },
+    "<i class='fa fa-volume-off'></i>\n\n\n\nDscrd 1",
+    {
+      "f": 3
+    },
+    "<i class='fa fa-play'></i>\n\n\n\nDscrd 2"
+  ],
+  [
+    {
+      "t": "#ff0000",
+      "a": 6,
+      "w": 4,
+      "d": true
+    },
+    "Browser"
+  ],
+  [
+    {
+      "c": "#bbbbbb",
+      "a": 7
+    },
+    "",
+    {
+      "c": "#cccccc",
+      "f": 3
+    },
+    "<i class='fa fa-arrow-left'></i>",
+    {
+      "f": 3
+    },
+    "<i class='fa fa-arrow-right'></i>",
+    {
+      "f": 3
+    },
+    "<i class='fa fa-refresh'></i>"
+  ],
+  [
+    {
+      "t": "#0000ff",
+      "a": 6,
+      "w": 4,
+      "d": true
+    },
+    "Zoom"
+  ],
+  [
+    {
+      "a": 7,
+      "f": 3
+    },
+    "<i class='fa fa-microphone-slash'></i>",
+    {
+      "c": "#bbbbbb"
+    },
+    "",
+    {
+      "c": "#cccccc",
+      "f": 3
+    },
+    "<i class='fa fa-share-square-o'></i>",
+    {
+      "f": 3
+    },
+    "<i class='fa fa-sign-out'></i>"
+  ],
+  [
+    {
+      "t": "#ae00ff",
+      "a": 6,
+      "w": 4,
+      "d": true
+    },
+    "Discord 1"
+  ],
+  [
+    {
+      "a": 7,
+      "f": 3
+    },
+    "<i class='fa fa-microphone-slash'></i>",
+    {
+      "f": 3
+    },
+    "<i class='fa fa-headphones'></i>",
+    {
+      "c": "#bbbbbb"
+    },
+    "",
+    {
+      "c": "#cccccc",
+      "f": 3
+    },
+    "@DTP"
+  ],
+  [
+    {
+      "a": 6,
+      "w": 4,
+      "d": true
+    },
+    "Discord 2"
+  ],
+  [
+    {
+      "a": 7,
+      "f": 3
+    },
+    "<i class='fa fa-question'></i><i class='fa fa-question'></i><i class='fa fa-question'></i>",
+    {
+      "a": 6,
+      "f": 3
+    },
+    "<i ='fa fa-question'></i>\n\n\n\n\n\n\n\n<i class='fa fa-question'></i><i class='fa fa-question'></i><i class='fa fa-question'></i>",
+    {
+      "a": 7,
+      "f": 3
+    },
+    "<i class='fa fa-question'></i><i class='fa fa-question'></i><i class='fa fa-question'></i>",
+    {
+      "c": "#bbbbbb"
+    },
+    ""
+  ]
+]

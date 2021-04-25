@@ -2,9 +2,10 @@
 
 enum custom_keycodes {
     ZOOM_DC = SAFE_RANGE,
-    AT_ROSS,
     DTP_GAME,
-    MAC_DUF
+    AT_ROSS,
+    RASS,
+    VC_IMG
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -16,12 +17,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     */
     [0] = LAYOUT_all(LT(1, KC_VOLU), LT(2, KC_VOLD), LT(3, KC_MUTE), LT(4, KC_MPLY)),
 
-    /* 1: Discord Layer
+    /* 1: Browser Layer
     ┌─────┬─────┬─────┬─────┐
-    │█████│Mute │Deaf │ GIF │
+    │█████│Back │Forw │Refr │
     └─────┴─────┴─────┴─────┘
     */
-    [1] = LAYOUT_all(KC_NO, RCS(KC_M), RCS(KC_D), C(KC_G)),
+    [1] = LAYOUT_all(KC_NO, KC_WBAK, KC_WFWD, KC_WREF),
 
     /* 2: Zoom Layer
     ┌─────┬─────┬─────┬─────┐
@@ -30,19 +31,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     */
     [2] = LAYOUT_all(A(KC_A), KC_NO, A(KC_S), ZOOM_DC),
 
-    /* 3: Browser Layer
+    /* 3: Discord Layer 1
     ┌─────┬─────┬─────┬─────┐
-    │Back │Forw │█████│Refr │
+    │Mute │Deaf │█████│@DTP │
     └─────┴─────┴─────┴─────┘
     */
-    [3] = LAYOUT_all(KC_WBAK, KC_WFWD, KC_NO, KC_WREF),
+    [3] = LAYOUT_all(RCS(KC_M), RCS(KC_D), KC_NO, DTP_GAME),
 
-    /* 4: Meme Layer
+    /* 4: Discord Layer 2
     ┌─────┬─────┬─────┬─────┐
-    │@DTP │@Ross│:mac:│█████│
+    │@Ross│rass │VcImg│█████│
     └─────┴─────┴─────┴─────┘
     */
-    [4] = LAYOUT_all(DTP_GAME, AT_ROSS, MAC_DUF, KC_NO)
+    [4] = LAYOUT_all(AT_ROSS, RASS, VC_IMG, KC_NO)
 
 };
 
@@ -80,14 +81,24 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
         break;
 
-    case MAC_DUF:
+    case RASS:
         if (record->event.pressed) {
-            // when keycode MAC_DUF is pressed
-            SEND_STRING(":macduf:"SS_TAP(X_ENT));
+            // when keycode RASS is pressed
+            SEND_STRING(":rass:"SS_TAP(X_ENT));
         } else {
-            // when keycode MAC_DUF is released
+            // when keycode RASS is released
+        }
+        break;
+
+    case VC_IMG:
+        if (record->event.pressed) {
+            // when keycode VC_IMG is pressed
+            SEND_STRING("https://media.discordapp.net/attachments/772254514266636309/833510271137349652/784cbb4cac219173e21d2418a1d914e66bc739dedb1ec3cb758744944bfa32c4_1.png"SS_TAP(X_ENT));
+        } else {
+            // when keycode VC_IMG is released
         }
         break;
     }
+
     return true;
 };

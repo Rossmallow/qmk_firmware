@@ -4,6 +4,7 @@ enum custom_keycodes {
     ZOOM_DC = SAFE_RANGE,
     DTP_GAME,
     TO_BED,
+    MAC_DUF,
     HWSNBN_GIF
 };
 
@@ -16,12 +17,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     */
     [0] = LAYOUT_all(LT(1, KC_VOLU), LT(2, KC_VOLD), LT(3, KC_MUTE), LT(4, KC_MPLY)),
 
-    /* 1: Discord Layer
+    /* 1: Browser Layer
     ┌─────┬─────┬─────┬─────┐
-    │█████│Mute │Deaf │ GIF │
+    │█████│Back │Forw │Refr │
     └─────┴─────┴─────┴─────┘
     */
-    [1] = LAYOUT_all(KC_NO, RCS(KC_M), RCS(KC_D), C(KC_G)),
+    [1] = LAYOUT_all(KC_NO, KC_WBAK, KC_WFWD, KC_WREF),
 
     /* 2: Zoom Layer
     ┌─────┬─────┬─────┬─────┐
@@ -30,19 +31,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     */
     [2] = LAYOUT_all(A(KC_A), KC_NO, A(KC_S), ZOOM_DC),
 
-    /* 3: Browser Layer
+    /* 3: Discord Layer 1
     ┌─────┬─────┬─────┬─────┐
-    │Back │Forw │█████│Refr │
+    │Mute │Deaf │█████│@DTP │
     └─────┴─────┴─────┴─────┘
     */
-    [3] = LAYOUT_all(KC_WBAK, KC_WFWD, KC_NO, KC_WREF),
+    [3] = LAYOUT_all(RCS(KC_M), RCS(KC_D), KC_NO, DTP_GAME),
 
-    /* 4: Meme Layer
+    /* 4: Discord Layer 2
     ┌─────┬─────┬─────┬─────┐
-    │@DTP │Sleep│V_GIF│█████│
+    │Sleep│:mac:│V_GIF│█████│
     └─────┴─────┴─────┴─────┘
     */
-    [4] = LAYOUT_all(DTP_GAME, TO_BED, HWSNBN_GIF, KC_NO)
+    [4] = LAYOUT_all(TO_BED, MAC_DUF, HWSNBN_GIF, KC_NO)
 
 };
 
@@ -77,6 +78,15 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             SEND_STRING("I can't. I'm going to bed."SS_TAP(X_ENT));
         } else {
             // when keycode AT_ROSS is released
+        }
+        break;
+
+    case MAC_DUF:
+        if (record->event.pressed) {
+            // when keycode MAC_DUF is pressed
+            SEND_STRING(":macduf:"SS_TAP(X_ENT));
+        } else {
+            // when keycode MAC_DUF is released
         }
         break;
 
