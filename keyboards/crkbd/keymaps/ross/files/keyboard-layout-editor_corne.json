@@ -1,0 +1,433 @@
+[
+  {
+    "name": "Corne",
+    "author": "Rossmallow",
+    "plate": false,
+    "keyboard-layout-editor": "http://www.keyboard-layout-editor.com/#/gists/adfa7c3cd8f0c6d3a7b9155c6eab1748#file-corne-crkbd_c0psrul3-default-json",
+    "qmk-config": "https://config.qmk.fm/#/crkbd/rev1/LAYOUT"
+  },
+  [
+    {
+      "t": "#ae00ff",
+      "a": 6,
+      "fa": [
+        9
+      ],
+      "w": 13.75,
+      "d": true
+    },
+    "Default"
+  ],
+  [
+    {
+      "t": "#000000\n#246fe0",
+      "a": 4,
+      "f": 3
+    },
+    "Esc\nReset",
+    {
+      "t": "#000000\n#246fe0\n#24e06f\n#e81717",
+      "f": 3
+    },
+    "Q\n[\n{\nF10",
+    {
+      "f": 3
+    },
+    "W\n9\n(\nF9",
+    {
+      "f": 3
+    },
+    "E\n8\n*\nF8",
+    {
+      "f": 3
+    },
+    "R\n7\n&\nF7",
+    {
+      "f": 3
+    },
+    "T\n]\n}\n<i class='kb kb-Unicode-PrintScreen-2'></i>",
+    {
+      "x": 1,
+      "t": "#000000\n\n#a2a800\n#1cdae6\n\n\n#f022c3",
+      "f": 3
+    },
+    "Y\n\n<i class='fa fa-angle-double-up'></i>\nPgUp\n\n\nrgb up",
+    {
+      "f": 3
+    },
+    "U\n\n1\nHome\n\n\nrgb pv",
+    {
+      "t": "#000000\n#f022c3\n#a2a800\n#1cdae6",
+      "f": 3
+    },
+    "I\n<i class='fa fa-volume-up'></i>\n<i class='fa fa-arrow-up'></i>\n<i class='fa fa-arrow-up'></i>",
+    {
+      "t": "#000000\n\n#a2a800\n#1cdae6\n\n\n#f022c3",
+      "f": 3
+    },
+    "O\n\n2\nEnd\n\n\nrgb nxt",
+    {
+      "t": "#000000\n\n#a2a800\n#1cdae6",
+      "f": 3
+    },
+    "P\n\n4\nIns",
+    {
+      "t": "#000000\n\n\n#1cdae6",
+      "f": 3
+    },
+    "<i class='kb kb-Unicode-DeleteRight-Big'></i>\n\n\n<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>"
+  ],
+  [
+    {
+      "t": "#000000\n#246fe0\n#24e06f",
+      "f": 3
+    },
+    "<i class='kb kb-Line-Start-End'></i>\nNum Lock\nCap",
+    {
+      "t": "#000000\n#246fe0\n#24e06f\n#e81717",
+      "f": 3
+    },
+    "A\n;\n:\nF11",
+    {
+      "t": "#000000\n#246fe0\n#24e06f\n#e81717\n#f022c3",
+      "f": 3
+    },
+    "S\n6\n^\nF6\nMedia",
+    {
+      "t": "#000000\n#246fe0\n#24e06f\n#e81717\n#ebf011",
+      "f": 3
+    },
+    "D\n5\n%\nF5\nMouse",
+    {
+      "t": "#000000\n#246fe0\n#24e06f\n#e81717\n#1cdae6",
+      "f": 3
+    },
+    "F\n4\n$\nF4\nNav",
+    {
+      "t": "#000000\n#246fe0\n#24e06f\n#e81717",
+      "f": 3
+    },
+    "G\n=\n+\n<i class='kb kb-Unicode-Scroll-2'></i>",
+    {
+      "x": 1,
+      "t": "#000000\n\n#a2a800\n#1cdae6\n\n\n#f022c3",
+      "f": 3
+    },
+    "H\n\n<i class='fa fa-angle-double-down'></i>\nPgDn\n\n\nrgb dn",
+    {
+      "t": "#000000\n#f022c3\n#a2a800\n#1cdae6\n#246fe0",
+      "f": 3
+    },
+    "J\n<i class='fa fa-fast-backward'></i>\n<i class='fa fa-arrow-left'></i>\n<i class='fa fa-arrow-left'></i>\nNum",
+    {
+      "t": "#000000\n#f022c3\n#a2a800\n#1cdae6\n#24e06f",
+      "f": 3
+    },
+    "K\n<i class='fa fa-volume-down'></i>\n<i class='fa fa-arrow-down'></i>\n<i class='fa fa-arrow-down'></i>\nSym",
+    {
+      "t": "#000000\n#f022c3\n#a2a800\n#1cdae6\n#e81717",
+      "f": 3
+    },
+    "L\n<i class='fa fa-fast-forward'></i>\n<i class='fa fa-arrow-right'></i>\n<i class='fa fa-arrow-right'></i>\nFunc",
+    {
+      "t": "#000000\n\n#a2a800\n#1cdae6",
+      "f": 3
+    },
+    "\"\n'\n5\nDel",
+    {
+      "t": "#000000\n\n#a2a800",
+      "f": 3
+    },
+    "<i class='kb kb-Return-2'></i>\n\n3"
+  ],
+  [
+    {
+      "t": "#000000",
+      "f": 3
+    },
+    "Ctrl\n\n\n\nShift",
+    {
+      "t": "#000000\n#246fe0\n#24e06f\n#e81717",
+      "f": 3
+    },
+    "Z\n`\n~\nF12",
+    {
+      "f": 3
+    },
+    "X\n3\n#\nF3",
+    {
+      "f": 3
+    },
+    "C\n2\n@\nF2",
+    {
+      "f": 3
+    },
+    "V\n1\n!\nF1",
+    {
+      "f": 3
+    },
+    "B\n\\\n|\n<i class='kb kb-Multimedia-Pause'></i>",
+    {
+      "x": 1,
+      "t": "#000000\n\n#a2a800",
+      "f": 3
+    },
+    "N\n\n<i class='fa fa-angle-double-left'></i>",
+    {
+      "t": "#000000\n\n\n\n\n\n\n#a2a800",
+      "f": 3
+    },
+    "M\n\n\n\n\n\n\nSpd 0",
+    {
+      "f": 3
+    },
+    "<\n,\n\n\n\n\n\nSpd 1",
+    {
+      "f": 3
+    },
+    ">\n.\n\n\n\n\n\nSpd 2",
+    {
+      "t": "#000000\n\n#a2a800",
+      "f": 3
+    },
+    "?\n/\n<i class='fa fa-angle-double-right'></i>",
+    {
+      "t": "#000000\n\n\n\n#ae00ff",
+      "f": 3
+    },
+    "Gui\n\n\n\nGame"
+  ],
+  [
+    {
+      "x": 3,
+      "t": "#000000\n#246fe0\n#24e06f",
+      "f": 3
+    },
+    "<i class='kb kb-Unicode-DeleteRight-Big'></i>\n.\n(\n\nAlt",
+    {
+      "f": 3
+    },
+    "<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>\n0\n)\n\nShift",
+    {
+      "f": 3
+    },
+    "Esc\n-\n_\n\nCtrl",
+    {
+      "x": 1,
+      "t": "#000000\n#f022c3",
+      "f": 3
+    },
+    "<i class='kb kb-Line-Start-End'></i>\n<i class='fa fa-volume-off'></i>\n\n\nAlt",
+    {
+      "f": 3
+    },
+    "Spc\n<i class='fa fa-play'></i>\n\n\nCtrl",
+    {
+      "f": 3
+    },
+    "<i class='kb kb-Return-2'></i>\n<i class='fa fa-stop'></i>\n\n\nGui"
+  ],
+  [
+    {
+      "y": 0.25,
+      "t": "#ae00ff",
+      "a": 6,
+      "w": 13.75,
+      "d": true
+    },
+    "Game"
+  ],
+  [
+    {
+      "t": "#000000",
+      "a": 4,
+      "f": 3
+    },
+    "Esc",
+    {
+      "t": "#000000\n#246fe0",
+      "f": 3
+    },
+    "Q\n1",
+    {
+      "f": 3
+    },
+    "W\n<i class='fa fa-arrow-up'></i>",
+    {
+      "f": 3
+    },
+    "E\n2",
+    {
+      "f": 3
+    },
+    "R\n3",
+    {
+      "t": "#000000",
+      "f": 3
+    },
+    "T",
+    {
+      "x": 1.25,
+      "f": 3
+    },
+    "Y",
+    {
+      "f": 3
+    },
+    "U",
+    {
+      "f": 3
+    },
+    "I",
+    {
+      "f": 3
+    },
+    "O",
+    {
+      "f": 3
+    },
+    "P",
+    {
+      "f": 3
+    },
+    "<i class='kb kb-Unicode-DeleteRight-Big'></i>"
+  ],
+  [
+    {
+      "f": 3
+    },
+    "Tab",
+    {
+      "t": "#000000\n#246fe0",
+      "f": 3
+    },
+    "A\n<i class='fa fa-arrow-left'></i>",
+    {
+      "f": 3
+    },
+    "S\n<i class='fa fa-arrow-down'></i>",
+    {
+      "f": 3
+    },
+    "D\n<i class='fa fa-arrow-right'></i>",
+    {
+      "f": 3
+    },
+    "F\n4",
+    {
+      "t": "#000000",
+      "f": 3
+    },
+    "G",
+    {
+      "x": 1.25,
+      "f": 3
+    },
+    "H",
+    {
+      "f": 3
+    },
+    "J",
+    {
+      "f": 3
+    },
+    "K",
+    {
+      "f": 3
+    },
+    "L",
+    {
+      "f": 3
+    },
+    "\"\n'",
+    {
+      "f": 3
+    },
+    "<i class='kb kb-Return-2'></i>"
+  ],
+  [
+    {
+      "f": 3
+    },
+    "Shift\n\n\n\nCtrl",
+    {
+      "t": "#000000\n#246fe0",
+      "f": 3
+    },
+    "Z\n5",
+    {
+      "f": 3
+    },
+    "X\n6",
+    {
+      "f": 3
+    },
+    "C\n7",
+    {
+      "f": 3
+    },
+    "V\n8",
+    {
+      "f": 3
+    },
+    "B\n9",
+    {
+      "x": 1.25,
+      "t": "#000000",
+      "f": 3
+    },
+    "N",
+    {
+      "f": 3
+    },
+    "M",
+    {
+      "f": 3
+    },
+    "<\n,",
+    {
+      "f": 3
+    },
+    "<\n,",
+    {
+      "f": 3
+    },
+    "?\n/",
+    {
+      "t": "#000000\n\n\n\n#ae00ff",
+      "f": 3
+    },
+    "Gui\n\n\n\nDefault"
+  ],
+  [
+    {
+      "x": 3,
+      "t": "#000000",
+      "f": 3
+    },
+    "Spc",
+    {
+      "f": 3
+    },
+    "<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>\n\n\n\nShift",
+    {
+      "t": "#000000\n\n\n\n#246fe0",
+      "f": 3
+    },
+    "Alt\n\n\n\nFn",
+    {
+      "x": 1.25,
+      "t": "#000000",
+      "f": 3
+    },
+    "<i class='kb kb-Line-Start-End'></i>\n\n\n\nAlt",
+    {
+      "f": 3
+    },
+    "Spc\n\n\n\nCtrl",
+    {
+      "f": 3
+    },
+    "<i class='kb kb-Return-2'></i>\n\n\n\nGui"
+  ]
+]
